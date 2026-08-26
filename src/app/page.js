@@ -8,7 +8,7 @@ export default async function Home() {
   });
 
   return (
-    <div className="min-h-screen   font-sans">
+    <div className="min-h-screen   font-sans   bg-teal-100">
       
       
       <nav className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center ">
@@ -31,7 +31,7 @@ export default async function Home() {
         <div className="mt-8">
           <Link
             href="/admin/add"
-            className="inline-block bg-green-500 hover:bg-green-600 text-slate-950 font-bold px-8 py-3.5 rounded-md text-base tracking-wider uppercase shadow-lg transition transform hover:-translate-y-0.5"
+            className="inline-block bg-teal-500 (hover: bg-teal-600) text-white text-slate-900 font-bold px-8 py-3.5 rounded-md text-base tracking-wider uppercase shadow-lg transition transform hover:-translate-y-0.5"
           >
             CREATE YOUR BLOG
           </Link>
